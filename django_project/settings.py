@@ -25,7 +25,7 @@ SECRET_KEY = 'zbqs0w%@az=x_8(*i2anlg77@5os_6+h$6ab72_6e8k419r-j+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['your-blog-nepal.herokuapp.com','localhost']
+ALLOWED_HOSTS = ['your-blog-nepal.herokuapp.com']
 
 
 # Application definition
