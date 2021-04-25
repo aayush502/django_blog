@@ -19,8 +19,11 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 from users import views as user_views
+# from chat.views import room as room_name
 
 urlpatterns = [
+    # path('room/', room_name),
+    path('chat/', include('chat.urls', namespace = 'chat')),
     path('admin/', admin.site.urls),
     path('register/', user_views.register, name='register'),
     path('profile/', user_views.profile, name='profile'),
